@@ -1,34 +1,25 @@
-# Discord bots website template
-
-Amazing website with good UI design for new Discord bots, designed with Bootstrap & now-ui-kit available in English and Arabic.
-
-![Screenshot](https://raw.githubusercontent.com/NourEldienHE/Discord-bot-website-template/master/Screenshot_2.png)
+# TimeZone Discord Bot
+This is a discord bot that helps you to convert timezones!
 
 
-## Getting Started
+This website is made using Discord bots website template
 
-Download or fork the repo to get started!
-
-### Installing
-
+Amazing website with good UI design for new Discord bots, designed with Bootstrap & now-ui-kit
+Installing
 Download or fork the repo
-
 ```
 git clone https://github.com/NourEldienHE/Discord-bot-website-template.git
 ```
 
 Open index.html and start to use the website 
 
-## Built With
+Built With
 
 * [Bootstrap](https://getbootstrap.com/) - The web framework used
 * [Now-ui-kit](https://demos.creative-tim.com/now-ui-kit/index.html) - Dependency Management
 
-## Authors
-
+Authors
 [Nouridio](https://github.com/NourEldienHE)
 
-
-## License
-
+License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
