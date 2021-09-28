@@ -71,25 +71,25 @@
         <div class="card" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title">City Time</h5>
-                <p class="card-text">To search for a city's time<br> <br><br><button class="btn" data-clipboard-text="$time City">$time City</button> <br><br><br></p>
+                <p class="card-text">To search for a city's time<br> <br><br><button id="btn1" class="btn" data-clipboard-text="$time City">$time City</button> <br><br><br></p>
             </div>
         </div>
         <div class="card" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title">Time Zone</h5>
-                <p class="card-text">To search for a timezone, for example EST<br><br><button class="btn" data-clipboard-text="$time EST">$time EST</button> <br><br><br></p>
+                <p class="card-text">To search for a timezone, for example EST<br><br><button id="btn1" class="btn" data-clipboard-text="$time EST">$time EST</button> <br><br><br></p>
             </div>
         </div>
         <div class="card" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title">Time Difference</h5>
-                <p class="card-text">Find the difference in time between any two cities or timezones<br><br><button class="btn" data-clipboard-text="$time City1 City2">$time City1 City2</button><br><br><br></p>
+                <p class="card-text">Find the difference in time between any two cities or timezones<br><br><button  id="btn1" class="btn" data-clipboard-text="$time City1 City2">$time City1 City2</button><br><br><br></p>
             </div>
         </div>
         <div class="card" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title">Convert Timezones</h5>
-                <p class="card-text">For when you want to know, "What's the time in London when it is 9 PM in New York?"<br><button class="btn" data-clipboard-text="$time New_York London 21:00 22-07-2021">$time New_York London 21:00 22-07-2021</button><br><br></p>
+                <p class="card-text">For when you want to know, "What's the time in London when it is 9 PM in New York?"<br><button id="btn1" class="btn" data-clipboard-text="$time New_York London 21:00 22-07-2021">$time New_York London 21:00 22-07-2021</button><br><br></p>
             </div>
         </div>
         
@@ -116,6 +116,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js"></script>
 <script src="js/now-ui-kit.min.js"></script>
-<script> let clipboard1 = new ClipboardJS('btn'); </script>
+<script> let clipboard1 = new ClipboardJS('#btn1'); </script>
 </body>
 </html>
