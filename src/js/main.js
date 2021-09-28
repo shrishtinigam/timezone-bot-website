@@ -1,1 +1,0 @@
-let clipboard1 = new ClipboardJS('btn');
