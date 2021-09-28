@@ -9,6 +9,7 @@ body {
     text-rendering: optimizeLegibility;
     border-top: 6px #7289DA solid !important;
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 .nav-link {
